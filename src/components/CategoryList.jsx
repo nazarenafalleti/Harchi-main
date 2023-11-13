@@ -6,6 +6,9 @@ const [
 	imgAcosoInfantil,
 	imgAcosoFamiliar,
 	imgAcosoEscolar,
+	imgAcososexual,
+	imgAcosohomofobico,
+
 
 ] = imgs;
 
@@ -30,6 +33,20 @@ export const CategoryList = () => {
 				category={categories.acosoescolar}
 				src={imgAcosoEscolar}
 				alt={`Categoría ${categories.AcosoEscolar}`}
+				gradientColor='from-red-400 to-zinc-400'
+			/>
+			{/* Category Link Acososexual */}
+			<CategoryCard
+				category={categories.acososexual}
+				src={imgAcososexual}
+				alt={`Categoría ${categories.AcosoSexual}`}
+				gradientColor='from-red-400 to-zinc-400'
+			/>
+			{/* Category Link Acosohomofobico */}
+			<CategoryCard
+				category={categories.acosohomofobico}
+				src={imgAcosohomofobico}
+				alt={`Categoría ${categories.AcosoHomofobico}`}
 				gradientColor='from-red-400 to-zinc-400'
 			/>
 			

@@ -1,12 +1,15 @@
 import AcosoInfantil from './assets/acosoinfantil.png';
 import AcosoFamiliar from './assets/acosofamiliar.png';
 import AcosoEscolar from './assets/acosoescolar.png';
-
+import AcosoSexual from './assets/acososexual.png';
+import AcosoHomofobico from './assets/acosohomofobico.png';
 
 export const imgs = [
 	AcosoInfantil,
 	AcosoFamiliar,
 	AcosoEscolar,
+	AcosoSexual,
+    AcosoHomofobico,
 
 ];
 
@@ -14,6 +17,8 @@ export const categories = {
 	acosoinfantil: 'Acoso Infantil',
 	acosofamiliar: 'Acoso Familiar',
 	acosoescolar: 'Acoso Escolar',
+	acososexual: 'Acoso Sexual',
+	acosohomofobico: 'Acoso Homofobico',
 
 };
 
@@ -21,6 +26,8 @@ const {
 	acosoinfantil,
 	acosofamiliar,
 	acosoescolar,
+	acososexual,
+	acosohomofobico,
 } = categories;
 
 export const questions = [
@@ -363,6 +370,126 @@ export const questions = [
 			'Siempre hablan de manera adecuada ante cualquier tipo de situación',
 		],
 	},
+	{
+		id: 37,
+		category: acososexual,
+		question: '¿Has experimentado tocamientos no deseados o contactos físicos que te hayan hecho sentir incómodo/a?',
+		correct_answer:
+		'Sí, aveces',
+		incorrect_answers: [
+			'No, hablo de eso si llego a sentirme incomodo',
+			
+		],
+	},
+	{
+		id: 38,
+		category: acososexual,
+		question: '¿Has recibido mensajes, imágenes sexuales no deseados en línea o a través de mensajes de texto?',
+		correct_answer:
+		'Sí, me a pasado',
+		incorrect_answers: [
+			'No, me han llegado ese tipo de mensajes ',
 	
+		],
+	},
+	{
+		id: 39,
+		category: acososexual,
+		question: '¿Alguna vez has experimentado comentarios o bromas sexuales que te hayan hecho sentir incómodo/a?',
+		correct_answer:
+		'Si, experimente comentarios y bromas que me hicieron sentir incomodo/a ',
+		incorrect_answers: [
+			'No, expertimente ningun comentario ni bromas ',
+	
+		],
+	},
+	{
+		id: 40,
+		category: acososexual,
+		question: '¿Te sientes seguro/a para expresar tus límites y decir "no" cuando es necesario?',
+		correct_answer:
+		'No, no me siento seguro/a',
+		incorrect_answers: [
+			'Si, no me molesta expresar limites  decir que no cuando es necesario ',
+	
+		],
+	},
+	{
+		id: 41,
+		category: acososexual,
+		question: '¿Alguna vez has sentido presión para participar en actividades de sexuales que no deseas?',
+		correct_answer:
+		'Si,me han hecho sentir presionado para participar en actividades sexuales',
+		incorrect_answers: [
+			'No,tengo seguridad para decir que no ',
+	
+		],
+	},
+	{
+		id: 42,
+		category: acosohomofobico,
+		question: '¿te sentis atraido por personas de tu mismo sexo?',
+		correct_answer:
+		'Si,me eh sentido atraido por personas de mi mismo sexo',
+		incorrect_answers: [
+			'No,me siento atraido por personas de mi sexo opuesto',
+	
+		],
+	},
+	{
+		id: 42,
+		category: acosohomofobico,
+		question: '¿Te sientes aceptado/a en tu entorno por tu orientación sexual?',
+		correct_answer:
+		'No, no me siento aceptado/a por mi orientacion sexual',
+		incorrect_answers: [
+			'Si,me siento apoyado/a por mi entorno',
+	
+		],
+	},
+	{
+		id: 43,
+		category: acosohomofobico,
+		question: '¿Has experimentado comentarios o bromas ofensivas relacionadas con tu orientación sexual?',
+		correct_answer:
+		'Si, recibo comentarios ofensivos por mi orientacion sexual',
+		incorrect_answers: [
+			'No,no recibo comentarios ni bromas ofensivos por mi orientacion',
+	
+		],
+	},
+	{
+		id: 44,
+		category: acosohomofobico,
+		question: '¿Te sientes libre para expresar tu orientación sexual sin temor a represalias o juicios?',
+		correct_answer:
+		'No, tengo miedo a las represalias o juicios que podrian haber por mi orientacion sexual',
+		incorrect_answers: [
+			'Si, no me da miedo las represalias o juicios que pueden haber por mi orientacion sexual',
+	
+		],
+	},
+	{
+		id: 45,
+		category: acosohomofobico,
+		question: '¿Te sientes respaldado/a y apoyado/a por tu entorno si enfrentaras situaciones incómodas relacionadas con tu orientación sexual?',
+		correct_answer:
+		'No, siento que no puedo contarles si tengo alguna situacion incomoda',
+		incorrect_answers: [
+			'Si, confio en mi entorno para hablar sobre alguna situacion incomoda ',
+	
+		],
+	},
+	{
+		id: 46,
+		category: acosohomofobico,
+		question: '¿Has notado cambios en tu bienestar emocional o mental relacionados con situaciones de discriminación por orientación sexual?',
+		correct_answer:
+		'Si, tengo miedo de hablar sobre mi orientacion sexual ',
+		incorrect_answers: [
+			'No, no sufro de discriminacion ',
+	
+		],
+	},
 
 ];
